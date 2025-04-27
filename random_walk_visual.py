@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from random_walk import RandomWalk
 
 # Create a RandomWalk instance
-rw = RandomWalk(10000)
+rw = RandomWalk(10000) # Number of points in the walk
 rw.fill_walk()
 
 # Plotting
